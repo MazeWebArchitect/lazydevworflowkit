@@ -1,0 +1,22 @@
+{
+  "name": "rblazydev",
+  "version": "1.0.0",
+  "description": "This is for you lazy ones",
+  "main": "index.js",
+  "author": "Matthias Held <matthias@raidboxes.de> (https://raidboxes.io)",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "browser-sync": "^2.18.13",
+    "generator-wordpress": "^2.0.2",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "yo": "^2.0.0"
+  }
+}
