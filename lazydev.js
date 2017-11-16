@@ -1,6 +1,6 @@
 /**
  * LazyDev Workflow Kit Gulp File
- * Created by Matthias Held | matthias@riadboxes.de
+ * Created by Matthias Held | matthias@raidboxes.de
  * Version: 1.0.0
  */
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,7 +30,7 @@ var reload          = browserSync.reload;
 // BrowserSync start server
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
-        proxy: 'mywordpress.dev' //Change this to your local dev Url
+        proxy: '127.0.0.1' // If your localhost IP differs or you have your own url change it here
     });
 });
 
@@ -78,5 +78,3 @@ gulp.task('In Production', ['browser-sync', 'watch']);
 
 // Finalize Project Files
 gulp.task('Finalize Project Files', gulpSequence(['autoprefixer', 'minifyjs'],'minimizecss'));
-
-
